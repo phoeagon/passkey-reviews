@@ -235,6 +235,30 @@ Not independently verified.
 
 ------------------------------------------------------------------------
 
+# Telecommunications
+
+------------------------------------------------------------------------
+
+## Tailscale
+
+Supports passkey login, but cannot be the first user on a tailscale net.
+
+Log in via SSO is required, and then you can invite via email link to enroll
+a platform neutral passkey. The passkey could be on Bitwarden/Chrome, etc
+and synchronized to other devices.
+
+This takes 1 extra user, out of the default quota of 3 on the free plan.
+
+------------------------------------------------------------------------
+
+## Wechat
+
+Supports passkey login.
+
+iOS only.
+
+------------------------------------------------------------------------
+
 # Retailers
 
 Passkey support among retailers varies but is increasing.
