@@ -181,6 +181,10 @@ in passkey maturity, though progress is visible.
 -   Enrollment workflow inconsistencies across browsers.
 -   Software‑based passkeys appear blocked.
 
+I have reasons to believe that, if you somehow get BoA to accept a
+software-based passkey (e.g., Bitwarden) during enrollment, it will
+also accept it during authentication.
+
 Notably, Merrill (its brokerage branch) behaves differently.
 
 ------------------------------------------------------------------------
@@ -214,16 +218,30 @@ Notably, Merrill (its brokerage branch) behaves differently.
 
 Passkey rollout appears partial.
 
--   Some browser/device combinations show passkey login.
--   No enrollment option available in testing.
--   Support escalation did not enable access.
+As of Apr 2025, US Bank now gives me the passkey option.
+
+Not sure if it's because I opened a checking account with them (previously
+I had only credit cards) or they rolled it out to more customers.
 
 ------------------------------------------------------------------------
 
 ## Chase
 
-Reportedly allows enrollment during password reset workflows.\
-Not independently verified.
+--Reportedly allows enrollment during password reset workflows.\--
+
+As of Apr 2025, Chase now fully supports passkey enrollment (without going
+through the password reset).
+
+However, the passkey login option is only available on the login page, not
+the homepage which also has the login dialog. Also, despite logging in
+with passkey, the same 2-factor authentication is still required, and
+it behaves the same as regular password based login (if you disable 2-FA
+it disables it for both, and if you enable then it applies to both).
+
+Another recent enhancement is that now it supports app-based 2FA,
+even if you log in on a window that "remembers you". It used to be
+that such simplified verification is available if you come from incognito
+but not if it remembers you.
 
 ------------------------------------------------------------------------
 
@@ -232,6 +250,12 @@ Not independently verified.
 -   Enrollment only via iOS app.
 -   Maximum: 1 passkey.
 -   Supports software‑synced credentials (commonly iCloud Keychain).
+
+------------------------------------------------------------------------
+
+## HealthEquity
+
+HealthEquity now supports passkey based authentication.
 
 ------------------------------------------------------------------------
 
